@@ -1,12 +1,13 @@
 <html>
     <header>
         <title>Countries</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </header>
     <body>
-    	<div>
+    	<div class="wrapper">
     		
-	    	<img src=<%= country.flag %>>
-	    	<ul>
+	    	<img class="country-flag" src=<%= country.flag %>>
+	    	<ul class="country-details">
 		        <li>Country name: <%= country.name %></li>
 		        <li>Native name: <%= country.nativeName %></li>
 		        <li>Population: <%= country.population %></li>
