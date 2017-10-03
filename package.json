@@ -15,5 +15,13 @@
     "start": "node server.js"
   },
   "devDependencies": {},
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigal2331/express_countries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bigal2331/express_countries/issues"
+  },
+  "homepage": "https://github.com/bigal2331/express_countries#readme"
 }
